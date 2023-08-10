@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	#declaring string
+	\ *declaring string * \
 	char *s = "\"Programming is like building a multilingual puzzle";
 
-	#prints output
+	\ *prints output * \
 	puts(s);
 	return (0);
 }
