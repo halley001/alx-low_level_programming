@@ -17,4 +17,5 @@ int main(void)
         }
         }
         printf("%d\n", harts);
+	return (0);
 }
