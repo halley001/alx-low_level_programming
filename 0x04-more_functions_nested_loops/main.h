@@ -7,7 +7,7 @@
  * int prototype (int)
  */
 
-_putchar
+int _putchar (int)
 int _isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);
