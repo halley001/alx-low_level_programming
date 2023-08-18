@@ -7,11 +7,9 @@
  */
 void print_line(int n)
 {
-int i;
-
-for (i = 0; i <= n; i++)
+while (n-- > 0)
 {
-_putchar(95);
+_putchar('_');
 }
 _putchar(10);
 }
