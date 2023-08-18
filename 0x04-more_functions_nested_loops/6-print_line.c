@@ -2,14 +2,16 @@
 
 /**
  * print_line - function that print a line in the terminal
- * @c: integer parameter
+ * @n: integer parameter
  * Return: returns void
  */
 void print_line(int n)
 {
-while (n-- > 0)
+int i;
+
+for (i = 0; i <= n; i++)
 {
-_putchar('_');
+_putchar(95);
 }
 _putchar(10);
 }
