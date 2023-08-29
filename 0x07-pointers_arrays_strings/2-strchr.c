@@ -1,10 +1,15 @@
 #include "main.h"
 /**
- * set_string - function that sets the value of a pointer to a char.
- *@s: pointer value
- *@to: value pointed to
+ *_strchr - Returns a pointer to the first occurrence
+ *of the character c in the string s, or NULL if the
+ *character is not found
  *
+ *@s:string targeted
+ *@c:character targeted
+ *
+ *Return: returns pointer to first occcurence of c
  */
+
 void set_string(char *s, char c)
 {
 while (*s != '\0' && *s != c)
