@@ -5,7 +5,7 @@
  *@to: value pointed to
  *
  */
-void set_string(char **s, char *to)
+void set_string(char *s, char c)
 {
 while (*s != '\0' && *s != c)
 {
