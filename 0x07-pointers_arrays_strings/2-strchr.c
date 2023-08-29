@@ -10,7 +10,7 @@
  *Return: returns pointer to first occcurence of c
  */
 
-void char *_strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 while (*s != '\0' && *s != c)
 {
