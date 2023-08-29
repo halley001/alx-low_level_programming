@@ -7,5 +7,9 @@
  */
 void set_string(char **s, char *to)
 {
-*s = to;
+while (*s != '\0' && *s != c)
+{
+s++;
+}
+return (*s == c ? s : NULL);
 }
